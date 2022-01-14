@@ -2,7 +2,7 @@
 
 namespace C_Sharp_HW20
 {
-    class Vasya : Man
+    public class Vasya : Man
     {
         public override void BeFather(string child) => Console.WriteLine($"Vasya is the father to {child}");
         public override void ConceiveChild(string woman) => Console.WriteLine($"Vasya conceived a child with {woman}");

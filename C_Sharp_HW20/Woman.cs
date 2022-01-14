@@ -2,9 +2,9 @@
 
 namespace C_Sharp_HW20
 {
-    abstract class Woman : People
+    public abstract class Woman : People
     {
-        abstract public void GetPregnant(string man);
-        abstract public void BeMother(string child);
+        public abstract void GetPregnant(string man);
+        public abstract void BeMother(string child);
     }
 }
